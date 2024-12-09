@@ -1,0 +1,10 @@
+version = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "objaverse"
+version = "0.1.0"
+source = { virtual = "." }
+
+[package.metadata]
+requires-dist = [{ name = "objaverse", virtual = "." }]
